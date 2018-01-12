@@ -1,0 +1,32 @@
+.page-header {
+    font-size: 35px;
+}
+
+th, td{
+    text-align: center;
+}
+
+.event-btn {
+    padding: 2px;
+}
+.jumbotron {
+    margin-top: 20px;
+}
+
+.filteredBy {
+    margin:30px 0 30px 0;
+    color: #449D44;
+}
+
+#search-input { /* search icon in the search input*/
+    background-image: url('../../../assets/images/search.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+#tableWrapper {
+    font-size: 14px;
+    overflow-x: auto;
+    min-width: 100%;
+    table-layout: fixed;
+}
